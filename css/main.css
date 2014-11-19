@@ -1,0 +1,62 @@
+/*
+    Document   : css/main．css
+    Created on : 2014-11-19 08:59 PM
+    Author     : yaboi
+    Description: Custom styling for "FlyerSocial" App
+    Version    : 1.0.0
+*/
+
+/* Bootstrap Nav Overwrites */
+ .navbar-inner {
+    min-height: 75px;
+}
+.navbar .brand {
+    padding: 27px 30px 27px;
+}
+.navbar .nav>li {
+    padding: 16px 30px 16px;
+}
+.navbar-inverse .nav>li>a.btn {
+    color: #fff;
+}
+.navbar .btn, .navbar .btn-group {
+    margin-top: 0;
+}
+/* Bootstrap Button Overwrites */
+ .btn:hover, .btn:focus {
+    background-position: initial;
+}
+/* Bootstrap Hero-Unit Overwrites */
+ .hero-unit {
+    background: #000;
+    border-radius: 0;
+    color: #fff;
+    padding: 90px 60px;
+    margin-bottom: 0;
+}
+.hero-unit h1 {
+    margin-bottom: 10px;
+}
+
+/* Custom Section Styling */
+
+section {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+/* Custom Form Styling */
+input, textarea {
+    width: 100%;
+}
+
+/* Custom About Styles */
+ .about {
+    background-color: #efefef;
+}
+
+/* Custom Footer Styles */
+footer {
+    background-color: #000;
+    height: 30px;
+}
