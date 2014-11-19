@@ -1,0 +1,264 @@
+/* CSS Document */
+body {
+  padding-top: 70px;
+  font-family:Verdana, Geneva, sans-serif;
+}
+ul{
+	list-style-type:none;
+}
+li.content:before {
+	list-style-type:none;
+	font-family: 'FontAwesome';
+	font-size:14px;
+	content: '\f058';
+	margin:0 5px 0 -15px;
+}
+li.content {
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+
+a.Up:link, a.Up:Visited{
+	color:#FFF;
+}
+a.Up:Focus, a.Up:Hover{
+	color:#fe4918;
+}
+.footer{
+	height:100px;
+	width: 100%;
+	background-color: #82b7e7;
+	color:#505050;
+	padding-top:48px;
+	font-size:14px;
+}
+
+/* Navigation Menu Start */
+.navbar{
+	background-color: #252525;
+	font-size: 22px;
+	font-weight: 500;
+}
+/* Normal Items Color */
+.navbar-default .navbar-nav>li>a{
+	color: #FFF;
+}
+/* Normal Items Color on hovor */
+.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover{
+	color: #fe4918;
+}
+/* Selected Items Color */
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus {
+	color: #fe4918;
+	background-color: #252525;
+}
+
+/* Navigation Menu End */
+
+/* Form Menu Start */
+.HalfBox{
+	-webkit-border-radius: 3px; 
+    -moz-border-radius: 3px; 
+    border-radius: 3px; 
+    border: 1px solid #9f9f9f; 
+    outline:0; 
+    height:24px; 
+    background-color:#f0f0f0;
+	color:#2d2d2d;
+	font-size:14px;
+	font-weight:bold;
+	width:100%;
+	padding-left:5px;
+	padding-right:5px;
+	margin-top:7px;
+	margin-bottom:7px;
+}
+
+.Email{
+    border: 1px solid #9f9f9f; 
+    outline:0; 
+    background-color:#FFF;
+	font-size:14px;
+	font-weight:bold;	
+	height:40px;
+	weight:118px;
+	padding:3px;
+	padding-left:14px;
+	padding-right:14px;
+}
+
+.Tickets{
+    border: 1px solid #333; 
+    outline:0; 
+    background-color:#fe4918;
+	font-size:18px;	
+	height:50px;
+	padding-left:25px;
+	padding-right:25px;
+	margin-top:auto;
+	line-height:50px;
+	color:#FFF;
+}
+
+/* Form Menu End */
+
+/* The sections start */
+.row{
+	margin: 10px;
+	margin-bottom:50px;
+}
+.row2{
+	margin: 10px;
+	margin-bottom:50px;
+	height:100%;
+}
+
+.Media{
+	margin:auto;
+}
+
+.Faded{
+	color: #999;
+}
+.Dark{
+	color: #303030;
+}
+.Title{
+	font-weight:600;
+	font-size: 20px;
+	margin-bottom:10px;
+}
+.Content{
+	font-weight:400;
+	font-size: 16px;
+}
+/* The sections end */
+
+/* The Date Start*/
+.DateMonth{
+	color:#FFF;
+	background:#C30;
+	width:79px;
+	height:25px;
+	border-color:#999;
+	border-bottom:none;
+	border-style:solid;
+	text-align:center;
+	font-weight:800;
+	padding-top:2px;
+	float:right;
+	border-width:thin;
+}
+.DateNumber{
+	color:#666;
+	background:#CCC;
+	width:79px;
+	height:56px;
+	border-color:#999;
+	border-style:solid;
+	border-top-color:#C30;
+	text-align:center;
+	font-weight:800;
+	font-size:40px;
+	float:right;
+	border-width:thin;
+	margin-top: -15px;
+}
+/* The Date End*/
+
+/* SlideShow Start*/
+
+    #slides {
+      display: none
+    }
+
+    #slides .slidesjs-navigation {
+      margin-top:3px;
+    }
+
+    #slides .slidesjs-previous {
+      margin-right: 5px;
+      float: left;
+    }
+
+    #slides .slidesjs-next {
+      margin-right: 5px;
+      float: left;
+    }
+
+    .slidesjs-pagination {
+      margin: 6px 0 0;
+      float: right;
+      list-style: none;
+    }
+
+    .slidesjs-pagination li {
+      float: left;
+      margin: 0 1px;
+    }
+
+    .slidesjs-pagination li a {
+      display: block;
+      width: 13px;
+      height: 0;
+      padding-top: 13px;
+      background-image:url(Images/SlideShow/pagination.png);
+      background-position: 0 0;
+      float: left;
+      overflow: hidden;
+    }
+
+    .slidesjs-pagination li a.active,
+    .slidesjs-pagination li a:hover.active {
+      background-position: 0 -13px
+    }
+
+    .slidesjs-pagination li a:hover {
+      background-position: 0 -26px
+    }
+
+    #slides a:link,
+    #slides a:visited {
+      color: #333
+    }
+
+    #slides a:hover,
+    #slides a:active {
+      color: #9e2020
+    }
+
+    .navbar {
+      overflow: hidden
+    }
+/* SlideShow End*/
+/* YouTube Start*/
+.CommentUserPic{
+	float:left;
+	width:88px;
+	border-color:#CCC;
+	border-width:1px;
+	border-style:solid;
+	margin-right: 15px;
+	height:100%;
+	min-height:88px;
+}
+.CommentContainer{
+	width: 100%;
+	margin-bottom:8px;
+	margin-top:12px;
+	min-height:95px;
+}
+.CommentAuthor{
+	color: #2793e8;
+	font-weight:600;
+	font-size: 14px;
+}
+.CommentDetails{
+	color:#000;
+	font-weight:500;
+	font-size:12px;
+	max-height: 60px;
+	overflow:hidden;
+}
+/* YouTube End*/
