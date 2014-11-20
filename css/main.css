@@ -10,7 +10,7 @@
  body {
     padding-left: 0;
     padding-right: 0;
-    padding-top: 0;
+    padding-top: 50px;
 }
 /* Bootstrap Nav Overwrites */
  .navbar-inner {
@@ -30,6 +30,7 @@
 }
 .navbar-fixed-top {
     margin-bottom: 0;
+    position: fixed;
 }
 /* Bootstrap Button Overwrites */
  .btn:hover, .btn:focus {
@@ -76,12 +77,12 @@
 }
 /* Small devices */
  @media (min-width: 768px) {
-}
-/* Medium devices */
- @media (min-width: 992px) {
     body {
         padding-top: 75px;
     }
+}
+/* Medium devices */
+ @media (min-width: 992px) {
 }
 /* Large devices */
  @media (min-width: 1200px) {
