@@ -6,6 +6,12 @@
     Version    : 1.0.0
 */
 
+/* Custom Body Styles */
+ body {
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+}
 /* Bootstrap Nav Overwrites */
  .navbar-inner {
     min-height: 75px;
@@ -22,6 +28,9 @@
 .navbar .btn, .navbar .btn-group {
     margin-top: 0;
 }
+.navbar-fixed-top {
+    margin-bottom: 0;
+}
 /* Bootstrap Button Overwrites */
  .btn:hover, .btn:focus {
     background-position: initial;
@@ -34,29 +43,46 @@
     padding: 90px 60px;
     margin-bottom: 0;
 }
+.hero-unit img {
+    margin-bottom: 15px;
+}
 .hero-unit h1 {
     margin-bottom: 10px;
 }
-
+.hero-unit p {
+    margin-bottom: 20px;
+}
 /* Custom Section Styling */
-
-section {
-    padding-top: 75px;
-    padding-bottom: 75px;
+ section {
+    padding: 75px 60px;
 }
-
-/* Custom Form Styling */
-input, textarea {
-    width: 100%;
+/* Custom Textarea Styling */
+ textarea {
+    resize:vertical;
+    max-height: 250px;
 }
-
 /* Custom About Styles */
  .about {
     background-color: #efefef;
 }
-
+/* Custom Social Icons Styles */
+ ul.social li a {
+    font-size: 24px;
+}
 /* Custom Footer Styles */
-footer {
+ footer {
     background-color: #000;
     height: 30px;
+}
+/* Small devices */
+ @media (min-width: 768px) {
+}
+/* Medium devices */
+ @media (min-width: 992px) {
+    body {
+        padding-top: 75px;
+    }
+}
+/* Large devices */
+ @media (min-width: 1200px) {
 }

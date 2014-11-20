@@ -10,15 +10,16 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
 </head>
 
 <body>
-    <div class="navbar navbar-inverse navbar-static-top">
+    <div class="navbar navbar-inverse navbar-fixed-top">
         <div class="navbar-inner">
             <div class="container">
-                <a class="brand" href="#">Flyer</a>
+                <a class="brand text-error" href="#">Flyer Social</a>
                 <ul class="nav pull-right">
                     <li>
                         <a href="#" class="btn btn-danger">Buy Tickets | $15</a>
@@ -63,35 +64,49 @@
     <section>
         <div class="container">
             <div class="row-fluid">
-                <div class="span6">
-                    <h2>Send Us A Message</h2>
-                    <form>
-                        <fieldset>
-                            <label>Name</label>
-                            <input type="text" placeholder="Name">
-                            <label>Email</label>
-                            <input type="text" placeholder="example@example.com">
-                            <label>Message</label>
-                            <textarea row="3"></textarea>
-                            <button type="submit" class="btn btn-large btn-info">Submit</button>
-                        </fieldset>
-                    </form>
-                </div>
-                <div class="span6">
+                <div class="span4">
                     <h2>Visit Us</h2>
-                    <address>
+                    <address class="lead">
                         <strong>Club Devo</strong><br>
                         PO Box 16122 Collins Street West<br>
                         Vixtoria 8007<br>
                         <abbr title="Phone">P:</abbr> +123 4567 8901
                     </address>
-                    <h2>Follow Us</h2>
+                    <hr class="visible-phone visible-tablet">
+                    <p class="lead"><strong>Follow Us</strong>
+                    </p>
+                    <ul class="inline social">
+                        <li>
+                            <a href="#Facebook" class="text-error"><i class="fa fa-facebook-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="#Twitter"  class="text-error"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#Google"  class="text-error"><i class="fa fa-google-plus-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="#Instagram"  class="text-error"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="span8">
+                    <h2>Send Us A Message</h2>
+                    <form role="form">
+                        <label>Name</label>
+                        <input class="input-block-level" type="text" placeholder="Name">
+                        <label>Email</label>
+                        <input class="input-block-level" type="email" placeholder="example@example.com">
+                        <label>Message</label>
+                        <textarea class="input-block-level" rows="5"></textarea>
+                        <button type="submit" class="btn btn-large btn-danger">Submit</button>
+                    </form>
                 </div>
             </div>
         </div>
     </section>
     <footer>
-    
+
     </footer>
 
     <script src="js/jquery.min.js"></script>
