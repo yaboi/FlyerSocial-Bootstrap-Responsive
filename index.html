@@ -21,6 +21,20 @@
             <div class="container">
                 <div class="row-fluid">
                     <a class="brand text-error" href="#">Flyer Social</a>
+                    <ul class="nav pull-left social">
+                        <li>
+                            <a href="#Facebook" class="text-error"><i class="fa fa-facebook-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="#Twitter" class="text-error"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a href="#Google" class="text-error"><i class="fa fa-google-plus-square"></i></a>
+                        </li>
+                        <li>
+                            <a href="#Instagram" class="text-error"><i class="fa fa-instagram"></i></a>
+                        </li>
+                    </ul>
                     <ul class="nav pull-right">
                         <li>
                             <a href="#" class="btn btn-danger">Buy Tickets | $15</a>
@@ -35,17 +49,33 @@
         <div class="container">
             <div class="row-fluid">
                 <div class="span5 text-center">
-                    <img src="img/hero_img.png" alt="">
+                    <a href="#myModal" role="button" data-toggle="modal">
+                        <img src="img/headline.png" alt="">
+                    </a>
                 </div>
                 <div class="span7">
                     <h4 class="muted">Club Vedo Presents:</h4>
                     <h1>Episode April</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum tellus ullamcorper, sollicitudin ex ac, commodo neque.</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vestibulum tellus ullamcorper, sollicitudin ex ac, commodo neque.</p>
                     <a href="#" class="btn btn-large btn-danger" alt="">Buy Tickets | $15</a>
                 </div>
             </div>
         </div>
     </section>
+
+    <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3>&nbsp;</h3>
+        </div>
+        <div class="modal-body">
+            <img src="img/headline.png" alt="">
+        </div>
+        <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+        </div>
+    </div>
 
     <section class="about">
         <div class="container">
@@ -61,7 +91,7 @@
             </div>
         </div>
     </section>
-    
+
     <section>
         <div class="container">
             <div class="row-fluid">
@@ -106,7 +136,7 @@
             </div>
         </div>
     </section>
-    
+
     <footer></footer>
 
     <script src="js/jquery.min.js"></script>
