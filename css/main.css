@@ -34,14 +34,9 @@
 .navbar .nav.social>li>a {
     color: #fff;
 }
-
-.navbar .nav.social>li>a:hover,
-.navbar .nav.social>li>a:focus,
-.navbar .nav.social>li>a:active
-{
+.navbar .nav.social>li>a:hover, .navbar .nav.social>li>a:focus, .navbar .nav.social>li>a:active {
     color: #b94a48;
 }
-
 .navbar-fixed-top {
     margin-bottom: 0;
     position: fixed;
@@ -55,7 +50,7 @@
     background: #000;
     border-radius: 0;
     color: #fff;
-    padding: 90px 60px;
+    padding: 40px 10px;
     margin-bottom: 0;
 }
 .hero-unit img {
@@ -69,10 +64,9 @@
     margin-bottom: 20px;
 }
 /* Bootstrap Modal Overwrites */
-.modal.fade.in {
+ .modal.fade.in {
     top: 10px;
 }
-
 /* Custom Section Styling */
  section {
     padding: 75px 60px;
