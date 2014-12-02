@@ -22,6 +22,10 @@
 .navbar .nav>li {
     padding: 16px 30px 16px;
 }
+
+.navbar .nav>li>a {
+    padding: 10px;
+}
 .navbar-inverse .nav>li>a.btn {
     color: #fff;
 }
