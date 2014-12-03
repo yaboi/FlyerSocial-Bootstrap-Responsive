@@ -14,13 +14,13 @@
 }
 /* Bootstrap Nav Overwrites */
  .navbar-inner {
-    min-height: 75px;
+    min-height: 50px;
 }
 .navbar .brand {
-    padding: 27px 30px 27px;
+    padding: 17px 30px 17px;
 }
 .navbar .nav>li {
-    padding: 16px 30px 16px;
+    padding: 5px 30px 5px;
 }
 
 .navbar .nav>li>a {
@@ -33,7 +33,7 @@
     margin-top: 0;
 }
 .navbar .nav.social>li {
-    padding: 16px 0 16px;
+    padding: 5px 0 5px;
 }
 .navbar .nav.social>li>a {
     color: #fff;
@@ -96,7 +96,7 @@
 /* Small devices */
  @media (min-width: 768px) {
     body {
-        padding-top: 75px;
+        padding-top: 50px;
     }
 }
 /* Medium devices */
