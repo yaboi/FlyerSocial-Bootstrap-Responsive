@@ -10,7 +10,7 @@
  body {
     padding-left: 0;
     padding-right: 0;
-    padding-top: 50px;
+    padding-top: 0;
 }
 /* Bootstrap Nav Overwrites */
  .navbar-inner {
@@ -22,7 +22,9 @@
 .navbar .nav>li {
     padding: 5px 30px 5px;
 }
-
+.navbar .nav.social>li {
+    padding: 5px 0 5px;
+}
 .navbar .nav>li>a {
     padding: 10px;
 }
@@ -31,9 +33,6 @@
 }
 .navbar .btn, .navbar .btn-group {
     margin-top: 0;
-}
-.navbar .nav.social>li {
-    padding: 5px 0 5px;
 }
 .navbar .nav.social>li>a {
     color: #fff;
@@ -95,12 +94,12 @@
 }
 /* Small devices */
  @media (min-width: 768px) {
-    body {
-        padding-top: 50px;
-    }
 }
 /* Medium devices */
  @media (min-width: 992px) {
+    body {
+        padding-top: 50px;
+    }
 }
 /* Large devices */
  @media (min-width: 1200px) {
