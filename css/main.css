@@ -66,6 +66,11 @@
 .hero-unit p {
     margin-bottom: 20px;
 }
+.instagram h1 img {
+    height: 40px;
+    vertical-align:top;
+    margin-right: 5px;
+}
 /* Bootstrap Modal Overwrites */
  .modal.fade.in {
     top: 10px;
