@@ -66,10 +66,17 @@
 .hero-unit p {
     margin-bottom: 20px;
 }
-.instagram h1 img {
+.instagram .media {
+    padding-bottom: 15px;
+}
+.instagram .media .media-body .media-heading {
+    word-wrap: break-word;
+}
+.instagram .media img {
     height: 40px;
     vertical-align:top;
     margin-right: 5px;
+    display: inline-block;
 }
 /* Bootstrap Modal Overwrites */
  .modal.fade.in {
@@ -97,6 +104,7 @@
     background-color: #000;
     height: 30px;
 }
+
 /* Small devices */
  @media (min-width: 768px) {
 }
